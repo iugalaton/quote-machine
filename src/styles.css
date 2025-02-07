@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.lato-thin {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .lato-thin-italic {
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .lato-light-italic {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .lato-regular-italic {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lato-bold-italic {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .lato-black-italic {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+main {
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #fa6965;
+
+
+}
+#quote-box {
+    
+    padding: 35px;
+    background-color: white;
+    color: #fa6965;
+    line-height: 1.3rem;
+    min-height: 200px;
+    width: 450px;
+    position: relative;
+}
+
+h2 {  
+    text-align: center;
+}
+
+#author {
+    margin: 10px;
+    text-align: right;
+    position: absolute;
+    bottom: 75px;
+    right: 35px
+    
+
+}
+
+button {
+    position: absolute;
+    background-color: #fa6965;
+    color: white;
+    border-radius: 5px;
+    border: none;    
+}
+
+#new-quote{ 
+    bottom: 35px;
+    right: 35px;
+    width: 100px;
+    height: 40px;  
+}
+
+
+
+
+.fa-twitter {
+
+}
